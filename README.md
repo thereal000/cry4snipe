@@ -17,4 +17,3 @@
 git clone https://github.com/tonpseudo/cry4snipe.git
 cd cry4snipe
 pip install -r requirements.txt
- 
