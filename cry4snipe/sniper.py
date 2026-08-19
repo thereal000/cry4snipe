@@ -29,11 +29,7 @@ from utils import (
     random_string,
 )
 class SniperThread(threading.Thread):
-    """
-    Thread qui effectue les vérifications de noms d'utilisateur.
-    Utilise des callbacks pour communiquer avec l'interface.
-    """
-
+    
     def __init__(self, callbacks, config: dict):
         super().__init__(daemon=True)
         self.callbacks = callbacks
@@ -52,7 +48,7 @@ class SniperThread(threading.Thread):
         self.max_backoff = 60
 
     def run(self):
-        """Boucle principale du sniping."""
+       
         self.running = True
         delay = float(self.config.get("delay", 5.0))
         length = int(self.config.get("length", 5))
