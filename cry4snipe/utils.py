@@ -79,7 +79,7 @@ def send_webhook(url: str, username: str, taken: bool = False) -> bool:
                         "description": desc,
                         "color": color,
                         "timestamp": datetime.utcnow().isoformat(),
-                        "footer": {"text": "cry4snipe by OnajLikezz (modifié)"},
+                        "footer": {"text": "cry4snipe by cry4me"},
                     }
                 ]
             },
