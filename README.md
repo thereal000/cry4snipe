@@ -13,6 +13,6 @@
 ## Installation
 
 ```bash
-git clone https://github.com/tonpseudo/cry4snipe.git
+git clone https://github.com/thereal000/cry4snipe.git
 cd cry4snipe
 pip install -r requirements.txt
